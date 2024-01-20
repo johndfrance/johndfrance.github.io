@@ -20,7 +20,7 @@
         MainContent.appendChild(MainParagraph);
         let DocumentBody = document.body;
         let Article = document.createElement("article");
-        let ArticleParagraph = `<p id="ArticleParagraph" class="mt-3">WELCOME TO JACKASS</p>`;
+        let ArticleParagraph = `<p id="ArticleParagraph" class="mt-3">This is my second paragraph</p>`;
         Article.setAttribute("class", "container");
         Article.innerHTML = ArticleParagraph;
         DocumentBody.appendChild(Article);
