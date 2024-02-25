@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./content/app.css">
+
+</head>
+<body>
+<header></header>
+
+<div class="team-grid">
+    <div class="team-member" onclick="openModal('John', 'Lead Developer', './images/doe.jpg', 'John is responsible for leading the development team.')">
+        <img src="./images/doe.jpg" alt="John">
+        <h3>John Doe</h3>
+        <p>Lead Developer</p>
+    </div>
+
+
+</div>
+
+<div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modal-image" alt="Team Member">
+    <div id="modal-content" class="modal-content">
+        <h2 id="modal-name"></h2>
+        <p id="modal-role"></p>
+        <p id="modal-description"></p>
+    </div>
+</div>
+
+<script src="./scripts/team.js"></script>
+
+<div class="last-element-above-footer"></div>
+<footer></footer>
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./scripts/app.js"></script>
+
+</body>
+</html>
