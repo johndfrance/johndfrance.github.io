@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Planning</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../content/app.css">
+
+</head>
+
+<body>
+<header></header>
+
+<div class="p-3"></div>
+<main style="padding-top: 56px">
+    <div class="container">
+        <h2>Create New Post</h2>
+        <form id="postForm">
+            <label for="postTitle">Title:</label><br>
+            <input type="text" id="postTitle" name="postTitle" required><br>
+            <label for="postContent">Content:</label><br>
+            <textarea id="postContent" name="postContent" rows="4" required></textarea><br>
+            <button type="submit">Create Post</button>
+        </form>
+    </div>
+    <div id="postContainer"></div>
+
+
+
+</main>
+<footer></footer>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../scripts/namespace.js"></script>
+<script src="../scripts/user.js"></script>
+<script src="../scripts/app.js"></script>
+<script src="../scripts/event-planning.js"></script>
+</body>
+</html>
